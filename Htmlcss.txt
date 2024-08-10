@@ -128,7 +128,7 @@ button a {
 }
 
 .Heading p{
-  Color:;
+  Color:#fff;
   
 }
 
