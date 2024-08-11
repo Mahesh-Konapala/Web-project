@@ -133,6 +133,28 @@ button a {
 }
 
 
+li a::after{
+  content:'';
+  width:0;
+  height:2px;
+  background-color:coral;
+  margin:auto;
+  display:block;
+}
+ li a:hover::after{
+   width:100%;
+   transistion"width 0.3s linear ;
+   margin-top:8px;
+ }
+ 
+ li a:hover{
+   color:coral;
+ }
+
+a{
+  text-decoration: none;
+}
+
 
 
 
